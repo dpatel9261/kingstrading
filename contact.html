@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="header-box">
+    <header>
+      <div class="logo-box">
+        <a href="#" class="logo"><img src="C:\Users\Dhairya\OneDrive\Desktop\Assignment_3_web\images_videos\logo.png" alt="Logo"></a>
+        <h1>Kings Trading</h1>
+      </div>
+      <div class="button-box">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html" class="active">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  </div>
+  
+  <main>
+    <h2>Contact Us</h2>
+    <div class="container">
+      <div class="left">
+        <form action="#" method="POST">
+          <fieldset>
+            <legend>Personal Information</legend>
+            <div>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+              <label for="phone">Phone:</label>
+              <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div>
+              <label for="employment">Employment Status:</label>
+              <select id="employment" name="employment" required>
+                <option value="">Select Option</option>
+                <option value="student">Student</option>
+                <option value="full-time">Employed Full-time</option>
+                <option value="part-time">Employed Part-time</option>
+                <option value="retired">Retired</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>How did you hear about our site?</legend>
+            <div>
+              <input type="radio" id="social-media" name="how-heard" value="social-media">
+              <label for="social-media">Social Media</label>
+            </div>
+            <div>
+              <input type="radio" id="friend" name="how-heard" value="friend">
+              <label for="friend">Friend</label>
+            </div>
+            <div>
+              <input type="radio" id="search-engine" name="how-heard" value="search-engine">
+              <label for="search-engine">Search Engine</label>
+            </div>
+            <div>
+              <input type="radio" id="other" name="how-heard" value="other">
+              <label for="other">Other</label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Tell Us What You Think!</legend>
+            <div>
+              <label for="comments">Comments:</label>
+              <textarea id="comments" name="comments" rows="4" placeholder="Enter your comments"></textarea>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+      <div class="right">
+        <h2>Types of Trading</h2>
+        <ol>
+          <li>Scalping</li>
+            <li>Day Trading</li>
+            <li>Swing Trading</li>
+        </ol>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Dhairya | Student Number: 8869261 </p>
+  </footer>
+</body>
+</html>
